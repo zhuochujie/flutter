@@ -13,8 +13,7 @@ class DrawerDemo extends StatelessWidget {
                 Text('Z大叔', style: TextStyle(fontWeight: FontWeight.bold)),
             accountEmail: Text('xiaoZV587@qq.com'),
             currentAccountPicture: CircleAvatar(
-              backgroundImage: NetworkImage(
-                  'https://i2.hdslb.com/bfs/face/888c0271ab7e4612ab20cc65fbe9e026f0834d7e.jpg@72w_72h.webp'),
+              backgroundImage: AssetImage('images/image.jpg')
             ),
             decoration: BoxDecoration(
               color: Colors.yellow[400],
